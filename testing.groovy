@@ -6,7 +6,7 @@ job('DSL from seed'){
 		stringParam('Planet', defaultValue='World', description='this is the world')
 		}
 	scm{
-		github('https://github.com/ganpatirai/starter-web')
+		git('https://github.com/ganpatirai/starter-web',main)
 	}
 	
 	triggers{
